@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcingCosmosDB", "EventSourcingCosmosDB\EventSourcingCosmosDB.csproj", "{D45B1CEB-52B2-4809-AD9A-C5CC65CA000F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonDerivedTypeSourceGenerator", "JsonDerivedTypeSourceGenerator\JsonDerivedTypeSourceGenerator\JsonDerivedTypeSourceGenerator.csproj", "{2193FF46-9239-4E3E-B1C0-18929FDE9E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonDerivedTypeSourceGenerator.Tests", "JsonDerivedTypeSourceGenerator\JsonDerivedTypeSourceGenerator.Tests\JsonDerivedTypeSourceGenerator.Tests.csproj", "{2BC84B13-6807-4F3C-B470-64DB173170A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing.AsyncSnapshot", "EventSourcing.AsyncSnapshot\EventSourcing.AsyncSnapshot.csproj", "{C086E723-F8FE-44F4-A202-4DAF4FCD09DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45B1CEB-52B2-4809-AD9A-C5CC65CA000F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45B1CEB-52B2-4809-AD9A-C5CC65CA000F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45B1CEB-52B2-4809-AD9A-C5CC65CA000F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45B1CEB-52B2-4809-AD9A-C5CC65CA000F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2193FF46-9239-4E3E-B1C0-18929FDE9E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2193FF46-9239-4E3E-B1C0-18929FDE9E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2193FF46-9239-4E3E-B1C0-18929FDE9E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2193FF46-9239-4E3E-B1C0-18929FDE9E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC84B13-6807-4F3C-B470-64DB173170A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC84B13-6807-4F3C-B470-64DB173170A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC84B13-6807-4F3C-B470-64DB173170A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC84B13-6807-4F3C-B470-64DB173170A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C086E723-F8FE-44F4-A202-4DAF4FCD09DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C086E723-F8FE-44F4-A202-4DAF4FCD09DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C086E723-F8FE-44F4-A202-4DAF4FCD09DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C086E723-F8FE-44F4-A202-4DAF4FCD09DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
